@@ -24,5 +24,5 @@ client.on('messageCreate', (message) => {
     message.reply('ちょ待てよ')
   }
 })
-
+console.log("TOKEN:", process.env.DISCORD_TOKEN)
 client.login(process.env.DISCORD_TOKEN)
